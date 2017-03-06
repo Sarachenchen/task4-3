@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #f1f1f1;
+    min-width: 400px;
+    position: relative;
+    font-size: 14px;
+}
+
+
+/*nav*/
+
+.nav-pc,
+.nav-ipad {
+    display: none;
+}
+
+.nav-iph-rig {
+    float: right;
+    margin-top: 12px;
+    margin-right: 16px;
+}
+
+.nav-iph-lef {
+    float: left;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+
+/*article*/
+
+.article-pc,
+.article-ipad {
+    display: none;
+}
+
+.article-iphone {
+    width: 100%;
+    padding-top: 70px;
+    text-align: center;
+    color: #666;
+}
+
+.iph-logo {
+    width: 50%;
+    height: 70px;
+}
+
+form {
+    margin-top: 31px;
+    position: relative;
+    width: 600px;
+}
+
+.text {
+    border: 1px solid #DDD;
+    width: 62%;
+    height: 38px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.text:hover {
+    border: 1px solid #999;
+}
+
+.text:focus {
+    border: 1px solid #07ccee;
+}
+
+.sub {
+    width: 23%;
+    height: 40px;
+    background-color: #3385ff;
+    color: #fff;
+    border: 1px solid #3385ff;
+    margin-left: -7px;
+}
+
+.sub:hover {
+    background-color: #0000FF;
+    cursor: pointer;
+}
+
+.sound {
+    position: absolute;
+    right: 180px;
+    top: 3px;
+}
+
+.iphone-a div {
+    float: left;
+    margin-left: 55px;
+    margin-top: 24px;
+}
+
+.iphone-a div img {
+    width: 27px;
+    height: 23px;
+}
+
+.iphone-a div a {
+    text-decoration: none;
+    color: #999;
+}
+
+h3 {
+    height: 30px;
+}
+
+.keys {
+    margin-top: 106px;
+}
+
+h3 a {
+    color: #666;
+    font-size: 16px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: #333;
+}
+
+.iphone-news {
+    background-color: #fff;
+    width: 100%;
+}
+
+
+/*iph-recommed-new1 new2*/
+
+.iph-recommed-new1 {
+    margin-top: 17px;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.iph-recommed-new2 {
+    border-bottom: 1px solid #ddd;
+}
+
+h4 {
+    font-size: 16px;
+    width: 90%;
+    height: 30px;
+    margin: 3px 12px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+h4 a {
+    text-decoration: none;
+    color: #999;
+}
+
+.b {
+    font-size: 12px;
+    margin: 12px 17px;
+    text-align: left;
+}
+
+
+/*iph-recommed-new3*/
+
+.iph-recommond-img {
+    width: 600px;
+    height: 120px;
+}
+
+.iph-recommond-img img {
+    width: 193px;
+    margin-left: 2px;
+}
+
+.iph-recommed-new3 {
+    margin: 12spx auto;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    line-height: 30px;
+}
+
+.iph-recommed-new3 h4 {
+    font-size: 16px;
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.iph-recommed-new3 a {
+    text-decoration: none;
+    color: #999;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 27px;
+}
+
+
+/*footer*/
+
+.footer-pc,
+.footer-ipad {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.foo-iph-center {
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+    color: #ddd;
+    font-size: 13px;
+}
+
+.iph-foo-lef {
+    margin: 20px auto;
+    font-size: 13px;
+}
+
+.iph-foo-lef div {
+    margin-top: 12px;
+    margin-left: 22px;
+}
+
+.iph-foo-lef div a {
+    color: #333;
+}
+
+.foo-iph-user {
+    margin: 15px auto;
+    text-align: center;
+}
+
+.foo-iph-user a {
+    color: #333;
+    font-size: 13px;
+}
+
+.foo-iph-bun {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 13px;
+    color: #999;
+}
+
+.foo-iph-bun a {
+    color: #999;
+}

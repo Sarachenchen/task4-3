@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    background: #fafafa;
+}
+
+.container {
+    background: #fafafa;
+    /*min-height: 500px;*/
+    position: relative;
+    font-size: 14px;
+}
+
+
+/*nav-ipad*/
+
+.nav-pc,
+.nav-iphone {
+    display: none;
+}
+
+.nav-pc-menu {
+    float: right;
+    padding: 20px 20px;
+}
+
+.nav-pc-menu a {
+    margin-left: 20px;
+}
+
+
+/*article-ipad*/
+
+.article-pc,
+.article-iphone {
+    display: none;
+}
+
+article {
+    width: 100%;
+    padding-top: 120px;
+    text-align: center;
+}
+form{
+    width: 794px;
+}
+
+.text {
+    border: 1px solid #DDD;
+    width: 580px;
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.text:hover {
+    border: 1px solid #999;
+}
+
+.text:focus {
+    border: 1px solid #07ccee;
+}
+
+.sound {
+    position: absolute;
+    top: 208px;
+    right: 135px;
+    border-right: 1px solid #ddd;
+}
+
+.sound a img {
+    width: 30px;
+    height: 30px;
+}
+
+.camera-ipad {
+    position: absolute;
+    top: 207px;
+    right: 89px;
+}
+
+.camera-pad a img {
+    width: 35px;
+    height: 32px;
+}
+
+.ipad-a a img {
+    width: 96px;
+    height: 54px;
+    margin-left: -8px;
+    margin-top: 99px;
+}
+
+.ipad-news {
+    background-color: #fff;
+    height: 165px;
+    width: 480px;
+    margin: 28px auto;
+}
+
+td {
+    width: 160px;
+    height: 33px;
+}
+
+tr {
+    height: 33px;
+}
+
+tr a {
+    text-decoration: none;
+    color: #999;
+    text-indent: -17px;
+}
+
+p {
+    font-size: 20px;
+    text-indent: -377px;
+    line-height: 33px;
+    color: #999;
+}
+
+table,
+td,
+th {
+    border: 1px solid #edf3ed;
+}
+
+tr a:hover {
+    color: #333;
+}
+
+
+/*footer-ipad*/
+
+.footer-pc,
+.footer-iphone {
+    display: none;
+}
+
+.footer-ipad {
+    text-align: center;
+    margin-top: 70px;
+    color: #999;
+}
